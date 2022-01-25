@@ -1,0 +1,103 @@
+import { TypographyOptions } from '@mui/material/styles/createTypography';
+
+const typography: TypographyOptions = {
+  h1: {
+    fontSize: '2.25rem',
+    letterSpacing: '0.727273px',
+    fontWeight: 400,
+    textTransform: 'uppercase',
+    fontFamily: '"Baloo Bhaijaan", "Trebuchet MS", Helvetica, sans-serif',
+    lineHeight: '3.375rem',
+  },
+  h2: {
+    fontSize: '1.875rem',
+    letterSpacing: '0.727273px',
+    fontWeight: 400,
+    textTransform: 'uppercase',
+    fontFamily: '"Baloo Bhaijaan", "Trebuchet MS", Helvetica, sans-serif',
+    lineHeight: '2.8125rem',
+  },
+  h3: {
+    fontSize: '1.5rem',
+    letterSpacing: '0.727273px',
+    fontWeight: 400,
+    textTransform: 'uppercase',
+    fontFamily: '"Baloo Bhaijaan", "Trebuchet MS", Helvetica, sans-serif',
+    lineHeight: '2.25rem',
+  },
+  h4: {
+    fontSize: '1.125rem',
+    letterSpacing: '0.727273px',
+    fontWeight: 400,
+    textTransform: 'uppercase',
+    fontFamily: '"Baloo Bhaijaan", "Trebuchet MS", Helvetica, sans-serif',
+    lineHeight: '1.6875rem',
+  },
+  h6: {
+    fontSize: '1rem',
+    fontWeight: 600,
+    lineHeight: '1.6875rem',
+    textTransform: 'uppercase',
+    fontFamily: '"Baloo Bhaijaan 2", Geneva, Tahoma, sans-serif',
+  },
+  button: {
+    fontSize: '1rem',
+    letterSpacing: '0.727273px',
+    fontWeight: 400,
+    fontFamily: '"Baloo Bhaijaan", "Trebuchet MS", Helvetica, sans-serif',
+    textTransform: 'uppercase',
+    lineHeight: '1.5rem',
+  },
+  subtitle1: {
+    fontSize: '1.5rem',
+    letterSpacing: '0px',
+    fontWeight: 400,
+    fontFamily: '"Baloo Bhaijaan 2", Geneva, Tahoma, sans-serif',
+    lineHeight: '36px',
+    textShadow: '0px 0px 0px rgba(0, 0, 0, 0.25)',
+  },
+  h5: {
+    fontFamily: '"Baloo Bhaijaan 2", Geneva, Tahoma, sans-serif',
+    lineHeight: '1.5rem',
+    textTransform: 'uppercase',
+    fontSize: '0.875rem',
+    fontWeight: 600,
+  },
+  subtitle2: {
+    fontSize: '1.125rem',
+    fontWeight: 600,
+    fontFamily: '"Baloo Bhaijaan 2", Geneva, Tahoma, sans-serif',
+    lineHeight: '2rem',
+  },
+  body1: {
+    fontSize: '1rem',
+    letterSpacing: '0px',
+    fontWeight: 400,
+    fontFamily: '"Baloo Bhaijaan 2", Geneva, Tahoma, sans-serif',
+    lineHeight: '1.5rem',
+  },
+  body2: {
+    fontSize: '1.125rem',
+    letterSpacing: '0.727273px',
+    fontWeight: 400,
+    fontFamily: '"Baloo Bhaijaan 2", "Trebuchet MS", Helvetica, sans-serif',
+    lineHeight: '1.625rem',
+  },
+  overline: {
+    fontSize: '0.875rem',
+    fontWeight: 400,
+    fontFamily: '"Baloo Bhaijaan 2", Geneva, Tahoma, sans-serif',
+    lineHeight: '1.71rem',
+    textTransform: 'uppercase',
+    letterSpacing: 0,
+  },
+  caption: {
+    fontSize: '0.75rem',
+    fontWeight: 500,
+    fontFamily: '"Baloo Bhaijaan 2", Geneva, Tahoma, sans-serif',
+    lineHeight: '21px',
+    letterSpacing: '-0.2px',
+  },
+};
+
+export default typography;

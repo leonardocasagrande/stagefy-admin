@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Baloo Bhaijaan 2';
+  font-weight: 400;
+  src: local('Baloo Bhaijaan 2'), url(./assets/fonts/BalooBhaijaan2-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Baloo Bhaijaan 2';
+  font-weight: 500;
+  src: local('Baloo Bhaijaan 2'), url(./assets/fonts/BalooBhaijaan2-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Baloo Bhaijaan 2';
+  font-weight: 600;
+  src: local('Baloo Bhaijaan 2'), url(./assets/fonts/BalooBhaijaan2-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Baloo Bhaijaan 2';
+  font-weight: 700;
+  src: local('Baloo Bhaijaan 2'), url(./assets/fonts/BalooBhaijaan2-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Baloo Bhaijaan';
+  src: local('Baloo Bhaijaan'), url(./assets/fonts/Baloo\ Bhaijaan\ Regular\ 400.ttf) format('truetype');
+}
+
+.swal2-title.swal2-title {
+  font-size: 1.5rem;
+  letter-spacing: 0.727273px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Baloo Bhaijaan", "Trebuchet MS", Helvetica, sans-serif;
+  line-height: 2.25rem;
+  color: #000000;
+}
+
+.swal2-html-container.swal2-html-container {
+  font-size: '1.125rem';
+  letter-spacing: '0.727273px';
+  font-weight: 400;
+  font-family: "Baloo Bhaijaan 2", "Trebuchet MS", Helvetica, sans-serif;
+  line-height: '1.625rem';
+  color: #000000;
+}
+
+.swal2-confirm.swal2-styled.swal2-styled {
+  color: #F2F2F2;
+  font-size: 1rem;
+  letter-spacing: 0.727273px;
+  font-weight: 400;
+  font-family: "Baloo Bhaijaan", "Trebuchet MS", Helvetica, sans-serif;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+}
+
+.swal2-icon.swal2-success.swal2-success [class^=swal2-success-line] {
+  background-color: #4CAF62;
+}
+
+.swal2-icon.swal2-success .swal2-success-ring.swal2-success-ring {
+  border-color: #4CAF62;
+}
+
+.swal2-confirm.swal2-styled.error {
+  background-color: #DC3B3B;
+}
+
+.swal2-confirm.swal2-styled.success {
+  background-color: #4CAF62;
+}
+
+.swal2-icon.swal2-error.swal2-icon-show {
+  background-color: #DC3B3B;
+  border-color: #DC3B3B;
+}
+
+.swal2-icon.swal2-error.swal2-error [class^=swal2-x-mark-line] {
+  background-color: white;
+}
+
+.swal2-container.swal2-container {
+  z-index: 9999;
+}
